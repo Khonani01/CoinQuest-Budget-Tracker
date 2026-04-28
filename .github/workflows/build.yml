@@ -2,9 +2,9 @@ name: CoinQuest Android CI
 
 on:
   push:
-    branches: [ "main", "develop" ]
+    branches: [ "main", "UI-Design" ]
   pull_request:
-    branches: [ "main", "develop" ]
+    branches: [ "main", "UI-Design" ]
 
 jobs:
   build:
